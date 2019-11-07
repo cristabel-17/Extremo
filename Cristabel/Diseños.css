@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Documen */
+body{
+	background:url(Imagenes/portada.jpg) no-repeat center;
+	background-size: cover;
+	}
+#contenedor {
+	width: 1000px;
+	margin-left: 200px; 
+}
+
+#cabezera{
+	width:1000px;
+	height:250px;
+}
+.DE{
+	width: 900px;
+	height: 250px;
+}
+#menu{
+	width: 1000px;
+	height: 100px;
+}
+#boton ul{
+	list-style: none;
+	padding: 0;
+}
+#boton li{
+	display: inline; 
+	text-align: center;
+}
+#boton li a {
+	font-weight:bold;
+	display:block;
+	text-decoration: none;
+	color: Black;
+	border:solid #FFFFFF;
+	padding: 10px 50px;
+	background:#3015E1;
+	
+}
+#boton li:hover > ul {
+	display:block;
+}
+#boton li ul{
+	display:none;
+	position:absolute;
+}
+#boton > li {
+	float:left;
+}
+#contenido{
+	width:780px;
+	height:200px;
+	font-size : 12pt;
+	font-family : Castellar;
+	font-weight : bold;
+	text-align: center justify;
+	color:#FFFFFF;
+	text-shadow: -3px -3px 3px #0000DF, 3px -3px 3px #0000DF, -3px 3px 3px #0000DF, 3px 3px 3px #0000DF;
+}
+#lateral{
+	width:200px;
+	height:500px;
+	float:right;
+}
+.ilateral{
+	width:200px;
+	height:500px;
+
+}
+#formulario{
+	width:1000px;
+	height:300px;
+	margin-left:100px;
+}
+.sub{
+	font-weight:bold;
+	display:block;
+	text-decoration: none;
+	color: Black;
+	border:solid #FFFFFF;
+	padding: 10px 50px;
+	background:#3015E1;
+}
+#piepag {
+	margin-top: 50px;
+	width:1000px;
+	height:350px;
+}
+#vid
+    {
+     margin-left: 340px; 	
+     position:absolute;
+     left:0px;        
+     width:550px;       
+     display:block;
+     z-index:99;
+	 border:solid #FFF
+}
+#pieformu{
+	margin-top:200px;
+	width:1000px;
+	height:350px;
+}

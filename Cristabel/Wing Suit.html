@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Deportes al Limite</title>
+<link rel="stylesheet" type="text/css" href="Diseños.css">
+<script type="text/javascript">
+function confirmar()
+	 {
+	var pregunta = confirm("¿Deseas visitar la página de inicio?")	
+		if (pregunta)
+		{
+		alert("Te envío inmediatamente")
+		window.location ="Deportes.html";
+		}
+		else
+		{
+		alert("Okay, disfruta tu página")
+		}
+	 }
+</script>
+</head>
+<body>
+<div id="contenedor">
+	<div id="cabezera"><button type="button" onclick="confirmar()"><img class="DE" src="Imagenes/limite.jpg"</button>h
+	</div>
+	<div id="menu">
+    <ul id="boton">
+    <li><a href="Deportes.html">Inicio</a>
+	<li><a href="#">Tierra</a>
+    	<ul>
+    	<li><a href="BMX MOTOCROSS.html">BMX Motocross</a></li>
+		<li><a href="SNOWBOARD.html">Snowboard</a></li>
+		<li><a href="MONTAÑISMO.html">Montañismo o Alpinismo</a></li>
+		</ul>
+		</li> 
+	<li><a href="#">Agua</a>
+    	<ul>
+    	<li><a href="SURF.html">Surf</a></li>
+		<li><a href="RAFTING.html">Rafting</a></li>
+		<li><a href="BUCEO DEPORTIVO.html">Buceo Deportivo</a></li>
+		</ul>
+		</li>
+    <li><a href="#">Aire</a>
+    	<ul>
+    	<li><a href="PARACAIDISMO.html">Paracaidismo</a></li>
+		<li><a href="BUNGEE JUMPING.html">Bungee Jumping</a></li>
+		<li><a href="Wing Suit.html">Wing Suit</a></li>
+		</ul>
+		</li>
+    <li><a href="Contactanos.html">Contactanos</a></li>
+    </ul>
+    
+	</div>
+    <div id="lateral">
+    <img class="ilateral" src="Imagenes/wing.jpg">
+	</div>
+	<div id="contenido">
+    <h3>Wing Suit</h3><br />
+    <p>El Wing Suit consiste en lanzarse al vacío habitualmente desde un avión o una ubicación fija, tras el cual el saltador hincha las alas de su traje y ejecuta arriesgadas piruetas en el aire, el desplazamiento horizontal en esta modalidad suele rondar en unos 140/160 km/h frente a unos 200km/h de descenso vertical 
+El aterrizaje se realiza con la apertura de un paracaídas y desabrochando una cremallera lateral que libera las piernas para caer con una mayor seguridad.</p>
+    </div>
+	<div id="piepag">
+    <video src="Videos/Deportes Extremos - Vivir al Limite.avi" controls="controls" autoplay="autoplay" id="vid">video</video>
+	</div>
+	</div>
+</body>
+</html>
